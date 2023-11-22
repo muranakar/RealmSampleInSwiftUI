@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct ReamSampleInSwiftUIApp: App {
+struct ContentView: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocalOnlyContentView()
         }
     }
 }
